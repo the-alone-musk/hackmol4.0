@@ -1,62 +1,54 @@
-[
+// Create a new Date object for the target date and time
+const targetDate = new Date("February 25, 2023 09:00:00");
+
+// Loop through the array and update the "text" field for each object
+const data = [
   {
     "id": 1,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 2,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 3,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 4,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 5,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 6,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 7,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 8,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 9,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 10,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 11,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   },
   {
     "id": 12,
-
-    "text": "Hacking Begins in 2 Days"
+    "text": `Hacking Begins in ${targetDate.toLocaleString()}`
   }
-]
+];
